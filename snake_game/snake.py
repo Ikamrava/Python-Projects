@@ -49,6 +49,7 @@ class Snake:
         new_segment.color("white")
         new_segment.goto(self.segments[-1].position())
         self.segments.append(new_segment)
-            
+    
+          
 
     
